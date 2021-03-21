@@ -1,0 +1,278 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link  href='{%static "Login/css/animate.css"%}'  rel="stylesheet">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href='{%static "Login/css/icomoon.css"%}'>
+  <!-- Themify Icons-->
+  <link rel="stylesheet" href='{%static "Login/css/themify-icons.css"%}'>
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href='{%static "Login/css/bootstrap.css"%}'>
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href='{%static "Login/css/magnific-popup.css"%}'>
+
+  <!-- Bootstrap DateTimePicker -->
+  <link rel="stylesheet" href='{%static "Login/css/bootstrap-datetimepicker.min.css"%}'>
+
+  <!-- Owl Carousel  -->
+  <link rel="stylesheet" href='{%static "Login/css/owl.carousel.min.css"%}'>
+  <link rel="stylesheet" href='{%static "Login/css/owl.theme.default.min.css"%}'>
+
+  <!-- Theme style  -->
+  <link rel="stylesheet" href='{%static "Login/css/style.css"%}'>
+
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- FOR IE9 below -->
+  <!--[if lt IE 9]>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Foodtopia</title>
+    </head>
+
+    <body>
+      <div class="navbar-fixed">
+        <nav class=" light-green darken-4">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href ="#" class="brand-logo">FOODTOPIA
+              </a>
+              <a href="#" data-target="mobile-nav" class ="sidenav-trigger">
+                <i class="material-icons">menu
+                </i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#search">Search</a>
+                </li>
+                <li>
+                  <a href="#popular">Popular Restaurants</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#login">Login</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <ul class="sidenav" id="mobile-nav">
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#search">Search</a>
+                </li>
+                <li>
+                  <a href="#popular">Popular Restaurants</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#login">Login</a>
+                </li>
+
+      </ul>
+
+      <!--Section Carousel-->
+      <section class="slider">
+       <ul class="slides">
+      <li>
+        <img src="img/burger.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Treat your tastebuds!</h3>
+          <h5 class="light grey-text text-lighten-3">This burger will take you through a lipsmacking journey!.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/pancake.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/duck.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/gbwsm.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/indmeal.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/egg.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/donut.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/paneer.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+      </section>
+
+      <!--section login-->
+                  
+
+        <!--add css style-->
+        <style>
+          body{
+              background-image: url(img/green.jpg);
+              background-size: cover;
+              color:#fff;
+          } 
+          .login{
+              margin-top: 75px;
+              margin-left: 575px;
+
+          }
+            .login .card{
+              background: rgba(0, 0 , 0, 0.6);
+          }
+            .login label{
+              font-size: 22px;
+              color: #ccc;
+            }
+            .login input{
+              font-size: 20px !important;
+            }
+            .login button: hover{
+              padding: 0px 40px;
+            }
+          </style>
+
+        <!--login form-->
+
+        <div class="row login">
+          <div class="col s6 10 offset-14 ">
+            <div class ="card">
+              <div class="card-action light-green darken-4 white-text center-align ">
+                <h3>Login</h3>
+              </div>
+              <div class="card-content">
+                <div class="form-field"> 
+                  <label for="username">Username</label >
+
+                  <input type="text" id="username">
+                
+                </div><br>
+                <div class="form-field"> 
+                  <label for="passsword">Password </label >
+
+                  <input type="password" id="password">
+               
+                </div><br>
+                
+                <div class="form-field"> 
+                  <input type="checkbox" id="remember">
+                  <label for="remember">Remember me</label >
+                </div><br>
+                
+                <div class="form-field center-align">
+                  <button class="btn-large light-green darken-4" onclick="window.location.href='file:///Z:/Class%2012/Project/index1.html'>Login </button>
+                </div><br>
+
+                <div class="form-field center-align "> 
+                  <button class="btn-small light-green darken-4">Sign Up</button>     
+                  <button class="btn-small light-green darken-4">Forgot Password</button>         
+                </div><br>
+              
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- jQuery Easing -->
+  <script src="js/jquery.easing.1.3.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Waypoints -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <!-- Carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- countTo -->
+  <script src="js/jquery.countTo.js"></script>
+
+  <!-- Stellar Parallax -->
+  <script src="js/jquery.stellar.min.js"></script>
+
+  <!-- Magnific Popup -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/magnific-popup-options.js"></script>
+  
+  <script src="js/moment.min.js"></script>
+  <script src="js/bootstrap-datetimepicker.min.js"></script>
+
+
+  <!-- Main -->
+  <script src="js/main.js"></script>
+
+
+
+
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      
+      <script>
+        //Sidenav
+        const sideNav=document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav,{});
+
+        //Slider
+        const slider=document.querySelector('.slider');
+        M.Slider.init(slider,{
+          indicators: false,
+          height: 500,
+          transition: 500,
+          interval:6000
+        });
+      </script>
+  </body>
+  
+  </html>
