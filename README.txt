@@ -1,8 +1,8 @@
 
 TITLE: 
-Savory - 100% Fully Responsive Free HTML5 Bootstrap Template
+FoodTopia
 
-AUTHOR:
+The HTML pages used are:
 HTML Templates DESIGNED & DEVELOPED by GetTemplates.co
 
 Website: http://gettemplates.co/
